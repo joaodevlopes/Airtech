@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.cabecalhoLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+}
+
+.funcoes-container {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.btn-funcao {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-funcao:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-funcao:active {
+  transform: scale(0.98);
+}
+
+.selected {
+  background-color: blue !important;
+  color: white !important;
+  border-color: blue !important;
+}
+
+.btn-submit {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0000cc;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  form {
+    padding: 25px;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+  
+  form {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .funcoes-container {
+    flex-direction: column;
+  }
+  
+  .btn-funcao {
+    width: 100%;
+  }
+}
