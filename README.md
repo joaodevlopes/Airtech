@@ -76,15 +76,6 @@ Exemplo:
 
 ---
 
-## 📸 Imagens do Projeto
-
-> Substitua os caminhos abaixo pelos prints reais do sistema após inseri-los na pasta `assets/` do repositório.
-
-| Tela de Login | Dashboard | Aba de Produtos | Aba de Usuários | Geração de Nota Fiscal |
-|---------------|-----------|-----------------|------------------|--------------------------|
-| ![Login](assets/login.png) | ![Dashboard](assets/dashboard.png) | ![Produtos](assets/produtos.png) | ![Usuários](assets/usuarios.png) | ![Nota Fiscal](assets/notafiscal.png) |
-
----
 
 ## 📄 Licença
 
