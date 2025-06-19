@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/joaodevlopes/Airtech/refs/heads/main/capturaairtehc.PNG
+
 # 💼 Sistema de Gerenciamento de Estoque – AirTech
 
 Este é um projeto de sistema de gerenciamento de estoque desenvolvido em equipe como parte de uma atividade prática de aprendizado. O objetivo do AirTech é proporcionar um controle simples e eficiente de produtos em estoque por meio de uma interface amigável e funcionalidades úteis para o dia a dia de pequenas e médias empresas.
