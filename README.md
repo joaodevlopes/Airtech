@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/joaodevlopes/Airtech/refs/heads/main/capturaairtehc.PNG
+![Preview do Site](https://raw.githubusercontent.com/joaodevlopes/Airtech/refs/heads/main/capturaairtehc.PNG)
 
 # 💼 Sistema de Gerenciamento de Estoque – AirTech
 
